@@ -1,0 +1,60 @@
+.header {
+  background-color: $pale-cyan;
+  background-image: url('../images/bg-hero-desktop.svg');
+  height: 100vh;
+  min-height: 100vh;
+}
+
+nav.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 0;
+
+  .logo {
+    display: inline-block;
+    max-width: 12rem;
+    height: 2rem;
+
+    img {
+      object-fit: fill;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.section {
+  padding: 3rem 0;
+  display: flex;
+  width: 100%;
+
+  .content {
+    color: $dark-cyan;
+    flex: 1;
+    padding: 4rem 0;
+    width: 90%;
+
+    h1,
+    h2,
+    h3 {
+      font-family: $ff-poppins;
+      font-weight: 600;
+    }
+
+    p {
+      font-family: $ff-open-sans;
+      font-weight: 400;
+      margin-top: 1rem;
+      margin-right: 3rem;
+    }
+  }
+
+  .image {
+    flex: 1;
+    img {
+      overflow: hidden;
+      width: 100%;
+    }
+  }
+}
